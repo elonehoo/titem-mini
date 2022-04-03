@@ -1,0 +1,14 @@
+{
+  "name": "core-test",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3",
+    "vite": "^2.9.1",
+    "vitest": "0.8.1"
+  }
+}
