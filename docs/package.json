@@ -1,0 +1,16 @@
+{
+  "name": "docs",
+  "version": "0.0.1",
+  "description": "docs",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "vitepress --port 3333 --open",
+    "build": "vitepress build",
+    "serve": "vitepress serve"
+  },
+  "author": "Elone Hoo <huchengyea@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "vitepress": "^0.22.3"
+  }
+}
