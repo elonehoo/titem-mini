@@ -6,6 +6,11 @@
 
 <p align="center">Initialized TypeScript Project</p>
 
+## Vocode
+
+- [extensions.json](https://github.com/xiaoxunyao/viden/blob/main/.vscode/extensions.json)
+- [settings.json](https://github.com/xiaoxunyao/viden/blob/main/.vscode/settings.json)
+
 
 
 
