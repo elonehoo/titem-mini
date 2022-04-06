@@ -1,6 +1,6 @@
-import { assert, expect, test } from 'vitest'
+import { test } from 'vitest'
 import helloWorld from '../../../packages/core/src'
 
 test('hello world',()=>{
-  helloWorld()
+  console.log(helloWorld())
 })
