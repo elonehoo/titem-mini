@@ -1,5 +1,5 @@
 {
-  "name": "core-test",
+  "name": "@wheel/core-test",
   "version": "0.0.1",
   "scripts": {
     "test": "vitest",

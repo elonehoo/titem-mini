@@ -1,6 +1,6 @@
 import { test } from 'vitest'
 import helloWorld from '../../../packages/core/src'
 
-test('hello world',()=>{
-  console.log(helloWorld())
+test('test hello world',()=>{
+  helloWorld()
 })

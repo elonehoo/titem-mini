@@ -1,5 +1,5 @@
 {
-  "name": "ts-projects",
+  "name": "@wheel/monorepo",
   "version": "0.0.1",
   "description": "Initialized TypeScript Project",
   "packageManager": "pnpm@6.28.0",
