@@ -1,5 +1,6 @@
 import { assert, expect, test } from 'vitest'
+import helloWorld from '../../../packages/core/src'
 
-test.skip('text start',()=>{
-  console.log('text start')
+test('hello world',()=>{
+  helloWorld()
 })
