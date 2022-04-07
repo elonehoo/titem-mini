@@ -6,6 +6,16 @@
 
 <p align="center">Initialized TypeScript Project</p>
 
+## Features
+
+- ⚡️ Vite 2, pnpm - born with fastness
+
+- 📃 Use Vitepress for static site generation
+
+- ✅ Use Vitest for unit and components testing
+
+- 🦾 TypeScript, of course
+
 ## Vscode
 
 - [extensions.json](https://github.com/elonehoo/ts-projects/blob/main/.vscode/extensions.json)
