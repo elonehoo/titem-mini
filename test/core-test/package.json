@@ -1,6 +1,9 @@
 {
-  "name": "@wheel/core-test",
+  "name": "@vitetem-life/core-test",
+  "type": "module",
   "version": "0.0.1",
+  "description": "Vitetem Life",
+  "author": "Elone Hoo <huchengyea@163.com>",
   "scripts": {
     "test": "vitest",
     "coverage": "vitest run --coverage"

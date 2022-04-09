@@ -1,7 +1,7 @@
 {
-  "name": "@wheel/monorepo",
+  "name": "@vitetem-life/monorepo",
   "version": "0.0.1",
-  "description": "Initialized TypeScript Project",
+  "description": "Vitetem Life",
   "packageManager": "pnpm@6.28.0",
   "author": "Elone Hoo <huchengyea@163.com>",
   "type": "module",
