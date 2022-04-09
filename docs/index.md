@@ -1,6 +1,6 @@
 ---
 home: true
-heroTitle: wheel
+heroTitle: Vitetem Life
 heroImage: /logo.svg
 
 actionText: Get Started

@@ -1,10 +1,10 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'wheel',
-  description: 'Initialize the TypeScript project',
+  title: 'Vitetem-Life',
+  description: 'Vitetem Life',
   themeConfig: {
-    repo:'elonehoo/wheel',
+    repo:'elonehoo/vitetem-life',
     logo:'/logo.svg'
   }
 })
