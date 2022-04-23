@@ -2,7 +2,7 @@
 <img src="./public/logo.svg" height="150">
 </p>
 
-<h1 align="center">Vitetem-Life</h1>
+<h1 align="center">Vitem-Life</h1>
 
 ## Features
 
@@ -21,9 +21,9 @@
 
 ## Also
 
-[Vitetem](https://github.com/elonehoo/vitetem)
+[Vitem](https://github.com/elonehoo/vitem)
 
-[Vitetem Mini](https://github.com/elonehoo/vitetem-mini)
+[Vitem Mini](https://github.com/elonehoo/vitem-mini)
 
 ## Try it now!
 
@@ -34,7 +34,7 @@
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-npx degit elonehoo/ts-projects my-ts-projects-app
+npx degit elonehoo/vitem-life my-ts-projects-app
 cd my-ts-projects-app
 pnpm install # If you don't have pnpm installed, run: npm install -g pnpm
 ```
