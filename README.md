@@ -6,7 +6,7 @@
 
 ## Features
 
-- ⚡️ [Vite 2](https://github.com/vitejs/vite), [pnpm](https://github.com/pnpm/pnpm) - born with fastness
+- ⚡️ [Vite 3](https://github.com/vitejs/vite), [pnpm](https://github.com/pnpm/pnpm) - born with fastness
 
 - ✅ Use Vitest for unit and components testing
 
