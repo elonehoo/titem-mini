@@ -2,6 +2,7 @@
 
 import path from 'path'
 import { defineConfig } from 'vite'
+import types from '@elonehoo/vite-plugin-type-ts'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -10,6 +11,13 @@ export default defineConfig({
       '~/': `${path.resolve(__dirname, 'src')}/`,
     },
   },
+  plugins: [
+    types({
+      tsConfigFilePath: './tsconfig.json',
+      cleanVueFileName: true,
+      insertTypesEntry: true,
+    }),
+  ],
   build: {
     outDir: 'dist',
     lib: {
