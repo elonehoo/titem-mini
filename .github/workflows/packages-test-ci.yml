@@ -1,0 +1,43 @@
+name: Packages Test
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  coverage:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: latest
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2.2.4
+        with:
+          version: latest
+      - name: pnpm Install dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Coveralls
+        run: pnpm run coverage
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: latest
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2.2.4
+        with:
+          version: latest
+      - name: Install
+        run: pnpm install --frozen-lockfile
+      - name: Test
+        run: pnpm run test
