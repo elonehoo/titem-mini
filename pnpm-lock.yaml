@@ -5,28 +5,28 @@ specifiers:
   '@elonehoo/rimraf': ^0.0.1
   '@elonehoo/vite-plugin-type-ts': ^0.0.1
   '@types/node': 18.11.18
-  '@vitest/coverage-c8': ^0.27.1
+  '@vitest/coverage-c8': ^0.27.3
   bumpp: 8.2.1
   c8: ^7.12.0
   eslint: 8.32.0
-  pnpm: 7.25.0
+  pnpm: 7.25.1
   typescript: 4.9.4
   vite: 4.0.4
-  vitest: 0.27.1
+  vitest: 0.27.3
 
 devDependencies:
   '@elonehoo/eslint-config': 2.0.0_7uibuqfxkfaozanbtbziikiqje
   '@elonehoo/rimraf': 0.0.1
   '@elonehoo/vite-plugin-type-ts': 0.0.1
   '@types/node': 18.11.18
-  '@vitest/coverage-c8': 0.27.1
+  '@vitest/coverage-c8': 0.27.3
   bumpp: 8.2.1
   c8: 7.12.0
   eslint: 8.32.0
-  pnpm: 7.25.0
+  pnpm: 7.25.1
   typescript: 4.9.4
   vite: 4.0.4_@types+node@18.11.18
-  vitest: 0.27.1
+  vitest: 0.27.3
 
 packages:
 
@@ -721,11 +721,11 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vitest/coverage-c8/0.27.1:
-    resolution: {integrity: sha512-/9VTGDIAp4hv8PBawfyijxhkiyucfOxFRRP+7kzy3Dj0wONy1Mc2MBoPmiH4aZVc0LViQqecrQLs8JVGt42keA==}
+  /@vitest/coverage-c8/0.27.3:
+    resolution: {integrity: sha512-xIN4FXXwJqeP6z0gfQ06gbyBMRN2mYvZ4/mn4F96mKXzch0Y93fBeS81eo7D/2YtjbeJBUcU9/amPVb2T+h83Q==}
     dependencies:
       c8: 7.12.0
-      vitest: 0.27.1
+      vitest: 0.27.3
     transitivePeerDependencies:
       - '@edge-runtime/vm'
       - '@vitest/browser'
@@ -2585,8 +2585,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /pnpm/7.25.0:
-    resolution: {integrity: sha512-FGFQUON8kJ6ma39elJ8lyD8wPIfgp3opGJD9sX0TgIJk4zSr556qCgC8AN+3BFHe4yuRkEauf4JVLW2RKyyEcA==}
+  /pnpm/7.25.1:
+    resolution: {integrity: sha512-y/jlADVxyk+scBwI0ALRf8QoUMgrWyONnD1voZaPTBI+D+aIXXiFG9pMk3eLhvEfc0nK8KUnnbDDBTywd7WsMw==}
     engines: {node: '>=14.6'}
     hasBin: true
     dev: true
@@ -2863,6 +2863,10 @@ packages:
     resolution: {integrity: sha512-1XMJE5fQo1jGH6Y/7ebnwPOBEkIEnT4QF32d5R1+VXdXveM0IBMJt8zfaxX1P3QhVwrYe+576+jkANtSS2mBbw==}
     dev: true
 
+  /std-env/3.3.1:
+    resolution: {integrity: sha512-3H20QlwQsSm2OvAxWIYhs+j01MzzqwMwGiiO1NQaJYZgJZFPuAbf95/DiKRBSTYIJ2FeGUc+B/6mPGcWP9dO3Q==}
+    dev: true
+
   /string-argv/0.3.1:
     resolution: {integrity: sha512-a1uQGz7IyVy9YwhqjZIZu1c8JO8dNIe20xBmSS6qu9kv++k3JGzCVmprbNN5Kn+BgzD5E7YYwg1CcjuJMRNsvg==}
     engines: {node: '>=0.6.19'}
@@ -3118,8 +3122,8 @@ packages:
     engines: {node: '>= 0.10'}
     dev: true
 
-  /vite-node/0.27.1_@types+node@18.11.18:
-    resolution: {integrity: sha512-d6+ue/3NzsfndWaPbYh/bFkHbmAWfDXI4B874zRx+WREnG6CUHUbBC8lKaRYZjeR6gCPN5m1aVNNRXBYICA9XA==}
+  /vite-node/0.27.3_@types+node@18.11.18:
+    resolution: {integrity: sha512-eyJYOO64o5HIp8poc4bJX+ZNBwMZeI3f6/JdiUmJgW02Mt7LnoCtDMRVmLaY9S05SIsjGe339ZK4uo2wQ+bF9g==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     dependencies:
@@ -3175,8 +3179,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.27.1:
-    resolution: {integrity: sha512-1sIpQ1DVFTEn7c1ici1XHcVfdU4nKiBmPtPAtGKJJJLuJjojTv/OHGgcf69P57alM4ty8V4NMv+7Yoi5Cxqx9g==}
+  /vitest/0.27.3:
+    resolution: {integrity: sha512-Ld3UVgRVhJUtqvQ3dW89GxiApFAgBsWJZBCWzK+gA3w2yG68csXlGZZ4WDJURf+8ecNfgrScga6xY+8YSOpiMg==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
@@ -3208,12 +3212,13 @@ packages:
       local-pkg: 0.4.2
       picocolors: 1.0.0
       source-map: 0.6.1
+      std-env: 3.3.1
       strip-literal: 1.0.0
       tinybench: 2.3.1
       tinypool: 0.3.0
       tinyspy: 1.0.2
       vite: 4.0.4_@types+node@18.11.18
-      vite-node: 0.27.1_@types+node@18.11.18
+      vite-node: 0.27.3_@types+node@18.11.18
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
       - less
