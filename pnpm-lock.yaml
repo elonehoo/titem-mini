@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 devDependencies:
   '@elonehoo/eslint-config':
     specifier: 2.0.0
@@ -26,8 +30,8 @@ devDependencies:
     specifier: 8.41.0
     version: 8.41.0
   pnpm:
-    specifier: 7.32.5
-    version: 7.32.5
+    specifier: 8.15.7
+    version: 8.15.7
   typescript:
     specifier: 4.9.5
     version: 4.9.5
@@ -2718,9 +2722,9 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /pnpm@7.32.5:
-    resolution: {integrity: sha512-Q5WVGhbDVTEjyGk/njUOnOGIJPYCta8Vj7F8LW7hClMlFURSLjHjAD07G5v1Qi0lyhT4bo0QBTxVJnTunjP9FQ==}
-    engines: {node: '>=14.6'}
+  /pnpm@8.15.7:
+    resolution: {integrity: sha512-yFzSG22hAzIVaxyiqnnAph7nrS6wRTuIqymSienoypPmCRIyslwHy/YfbfdxKNnISeXJrG5EhU29IRxJ86Z63A==}
+    engines: {node: '>=16.14'}
     hasBin: true
     dev: true
 
