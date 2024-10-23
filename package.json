@@ -34,7 +34,7 @@
     "@elonehoo/eslint-config": "2.0.0",
     "@elonehoo/rimraf": "^0.0.1",
     "@elonehoo/vite-plugin-type-ts": "^0.0.1",
-    "@types/node": "18.16.16",
+    "@types/node": "20.17.0",
     "@vitest/coverage-c8": "^0.31.1",
     "bumpp": "8.2.1",
     "c8": "^7.14.0",
