@@ -1,0 +1,8 @@
+allowBuilds:
+  esbuild: true
+  pnpm: true
+
+packageExtensions:
+  "@elonehoo/vite-plugin-type-ts":
+    dependencies:
+      typescript: 5.9.3
